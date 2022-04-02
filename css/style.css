@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+	font-family: 'Raleway', sans-serif;
+}
+a{
+	color: black;
+}
+.navbar-toggler-icon{
+	color: green!important;
+	background: blue;
+}
+#text-principal{
+	font-size: 110%;
+	font-weight: 700;
+}
+#busca{
+	margin-left: 10%;
+	display: flex;
+}
+#buscar-back{
+	background: #F5F5F5;
+	width: 100%;
+	height: 550%;
+	font-size: 80%;
+}
+#nav-login{
+	padding-left: 80%;
+	align-content: flex-end;
+		
+}
+.link a{
+	color: blue;
+	margin-left: 50%;
+	font-size: 80%;
+	margin-bottom: 150%;
+ 
+		
+}
+.d-block{
+	width: 100%!important;
+}
+#ul-footer li a{
+	color: black;
+	font-size: 80%;
+	
+	font-weight: 700;
+	text-align: justify;
+	display: inline;
+}
+#colun-footer{ 
+	padding-right: 50px;
+}
+#btn-mensagem{
+	margin-left: 20%;
+	color: white;
+}
+#ul-footer li a:hover{
+	text-decoration: underline blue;
+
+}
+#sessao-produtos{
+	margin-top: 5%;
+	text-align: center;
+	align-self: center;
+	justify-content: center;
+	
+}
+#sessao-produtos a, btn-link{
+	margin-top: 5%;
+	text-align: center;
+	align-self: center;
+	justify-content: center;
+}
+#form-line i{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+#titulo-centro{
+	text-align: center;
+	align-content: center
+}
+#sessao-produtos{
+	justify-content: center;
+	display: inline-block;
+	margin-left: 25%;
+}
+i{
+	border-color: transparent;
+	border-image-outset: green;
+	resize: horizontal;
+}
+footer p{
+	font-weight: 700;
+	font-size: 80%;
+}
+#container-footer{
+	background: #EAF2FD;
+}
+.card{
+	margin-top: 20%;
+	margin-bottom: 0%;
+}

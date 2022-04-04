@@ -10,10 +10,29 @@ a{
 .navbar-toggler-icon{
 	color: green!important;
 	background: blue;
+	
 }
-#text-principal{
+.card-title{
+	font-size: 66%;
+	font-weight: 600;
+		
+}
+.link{
+	color: #2A7AE4;
+	font-size: 80%;
+	font-weight: 700;
+	margin-bottom: 25%;
+}
+.card-text{
+	font-size: 90%;
+	font-weight: 700;
+		
+}
+.text-principal{
 	font-size: 110%;
 	font-weight: 700;
+	text-align: center;
+	margin-top: 2.5%;
 }
 #busca{
 	margin-left: 10%;
@@ -35,6 +54,7 @@ a{
 	margin-left: 50%;
 	font-size: 80%;
 	margin-bottom: 150%;
+	
  
 		
 }
@@ -64,7 +84,7 @@ a{
 	margin-top: 5%;
 	text-align: center;
 	align-self: center;
-	justify-content: center;
+	justify-content: flex-start!important;
 	
 }
 #sessao-produtos a, btn-link{

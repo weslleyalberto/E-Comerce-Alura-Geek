@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Alura Geek- Login</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1"> 
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet">
+	<link href="css/login-style.css" rel="stylesheet">
+</head>
+		
+<body>
+	<header>
+	<nav class="navbar navbar-expand-lg navbar-white bg-white mb-12">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/game.png" alt="logo-gamer"><img src="assets/AluraGeek.png" alt="alura"><img src="assets/Alur.png" alt="Geek"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+		  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto offset-xl-0 col-xl-5" id="busca">
+            <input class="form-control mr-sm-8" type="search" placeholder="O que procura?" aria-label="Search" id="buscar-back">
+            <li class="nav-item active">
+              <button class="btn btn-outline-primary my-0 my-sm-0" type="submit" style="display: inline-block"> <i class="fa fa-search fa-0x border-null"></i></button>
+				   <form class="form-inline my-2 my-lg-0 offset-xl-0 col-xl-9" id="form-line">
+</form>
+             
+            </li>
+          </ul>
+       <a class="btn btn-primary" href="#">Login</a>
+        </div>
+      </div>
+    </nav>
+		</header>
+	<main>
+		<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="assets/Usuario.png" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form id="form-login">
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="email">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="senha">
+      <input type="submit" class="fadeIn fourth" value="Entrar">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+    <!--  <a class="underlineHover" href="#">Forgot Password?</a> -->
+    </div>
+
+  </div>
+</div>
+	
+	</main>
+	<div class="container-fluid text-center flex-md-column" id="container-footer">
+    <div class="container text-dark bg-sucess p-4" id="sessao-produtos">
+      <div class="row">
+        <div class="col-9 col-md-5 col-xl-1 col-lg-2">
+          <div class="col-3 text-center col-xl-5">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-9" id="colun-footer">
+			  <img src="assets/AluraGeek.png" alt="alura"><img src="assets/Alur.png" alt="Geek">
+															
+            
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12 col-xl-5">
+              <ul class="list-unstyled" id="ul-footer">
+                <li class="btn-link offset-xl-0 col-xl-5 col-8"> <a>Quem somos</a> </li>
+                <li class="btn-link col-xl-5 col-8"> <a>Política  privacidade</a> </li>
+                <li class="btn-link offset-xl-0 col-xl-5 col-8"> <a>Programa fidelidade</a> </li>
+                <li class="btn-link col-xl-5 col-8"> <a>Nossas Lojas</a> </li>
+                <li class="btn-link col-xl-5 col-8"> <a>Quero ser fraqueado</a> </li>
+				  <li class="btn-link offset-xl-0 col-xl-5 col-8"> <a>Anucie aqui</a> </li>
+              </ul>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col-md-8 col-8 offset-xl-1 flex-column col-lg-7 col-xl-7">
+         <hr>
+            <strong id="titulo-centro"> Fale conosco</strong><br>
+          <br>
+          <form>
+  <div class="form-group">
+  
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="seu nome">
+  </div>
+  
+  
+  <div class="form-group">
+   
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem"></textarea>
+  </div>
+			  <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+</form>
+         
+         </div>
+        </div>
+      </div>
+    </div>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+	<script src="https://use.fontawesome.com/releases/vVERSION/js/all.js" data-auto-replace-svg="nest"></script>
+</body>
+</html>

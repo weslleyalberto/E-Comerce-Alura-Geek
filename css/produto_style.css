@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+	font-family: 'Raleway', sans-serif!important;
+}
+.navbar{
+	height: 150px!important;
+	
+}
+.card-title{
+	font-size: 80%;
+}
+#banner-principal{
+	background: transparent;
+}
+#img-topo{
+	width: 100%;
+	
+}
+#coluna{
+	margin-top: 8%;
+}
+.card-body{
+	text-align: center;
+}
+#title-principal{
+	font-weight: 700;
+	font-size: 120%;
+	text-align: left;
+}
+.link{
+	font-size: 80%;
+}
+#title-preco{
+	font-weight: 700;
+}
+/*style="text-align:justify-all;margin-top: 4%;font-weight: 700"*/
+#produto-nome{
+	font-weight: 700;
+	margin-top: 10%;
+	font-size: 320%;
+}
+#produto-preco{
+	font-weight: 700;
+}
+#container-main{
+	margin-top: 3%
+}
+.text-principal{
+	font-weight: 700 bold;
+	font-size: 200%;
+	text-align: left;
+	margin-left: 21%
+}
+#sessao-produtos{
+	margin: 0
+}

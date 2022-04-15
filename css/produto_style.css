@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 *{
 	font-family: 'Raleway', sans-serif!important;
+	
+}
+body{
+	
 }
 .navbar{
 	height: 150px!important;
@@ -55,4 +59,7 @@
 }
 #sessao-produtos{
 	margin: 0
+}
+main{
+	background:  white;
 }

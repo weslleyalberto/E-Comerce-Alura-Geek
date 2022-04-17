@@ -4,10 +4,12 @@
 *{
 	font-family: 'Raleway', sans-serif!important;
 	
+	
 }
 body{
 	
 }
+
 .navbar{
 	height: 150px!important;
 	
@@ -60,6 +62,13 @@ body{
 #sessao-produtos{
 	margin: 0
 }
+.text-principal{
+	text-align: start;
+}
 main{
 	background:  white;
+}
+#btn-adicionar{
+	color: white;
+	margin-left: 70%;
 }

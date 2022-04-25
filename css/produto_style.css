@@ -24,16 +24,26 @@ body{
 	width: 100%;
 	
 }
+#img-produto:hover{
+	height: 120%;
+	width: 40%;
+	transition-delay: 250ms;
+}
 #coluna{
 	margin-top: 8%;
 }
 .card-body{
 	text-align: center;
 }
-#title-principal{
+#title-principal,h3{
 	font-weight: 700;
 	font-size: 120%;
-	text-align: left;
+	margin-left: 0%;
+	
+	
+}
+#title-p{
+	margin-left: 20%;
 }
 .link{
 	font-size: 80%;
@@ -45,17 +55,20 @@ body{
 #produto-nome{
 	font-weight: 700;
 	margin-top: 10%;
-	font-size: 320%;
+	font-size: 220%;
 }
 #produto-preco{
 	font-weight: 700;
+}
+#produto-descricao{
+	text-align: justify;
 }
 #container-main{
 	margin-top: 3%
 }
 .text-principal{
 	font-weight: 700 bold;
-	font-size: 200%;
+	font-size: 125%;
 	text-align: left;
 	margin-left: 21%
 }
